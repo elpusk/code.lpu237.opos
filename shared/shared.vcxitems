@@ -15,7 +15,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\code_tools\ct_com.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\code_tools\ct_safe_queue.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\code_tools\ct_variant.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\code_tools\opos\ct_opos_mgmt.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\code_tools\opos\ct_event_handler.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\code_tools\opos\ct_opos_msr.h" />
   </ItemGroup>
 </Project>

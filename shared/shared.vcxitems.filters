@@ -15,5 +15,10 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\code_tools\ct_com.h">
       <Filter>opos</Filter>
     </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\code_tools\ct_variant.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\code_tools\ct_safe_queue.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\code_tools\opos\ct_opos_msr.h">
+      <Filter>opos</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
